@@ -1,0 +1,14 @@
+C:\Users\User\source\repos\StudentManagementApp\StudentManagementApp\obj\Debug\StudentManagementApp.csproj.AssemblyReference.cache
+C:\Users\User\source\repos\StudentManagementApp\StudentManagementApp\obj\Debug\StudentManagementApp.Form1.resources
+C:\Users\User\source\repos\StudentManagementApp\StudentManagementApp\obj\Debug\StudentManagementApp.Properties.Resources.resources
+C:\Users\User\source\repos\StudentManagementApp\StudentManagementApp\obj\Debug\StudentManagementApp.csproj.GenerateResource.cache
+C:\Users\User\source\repos\StudentManagementApp\StudentManagementApp\obj\Debug\StudentManagementApp.csproj.CoreCompileInputs.cache
+C:\Users\User\source\repos\StudentManagementApp\StudentManagementApp\bin\Debug\StudentManagementApp.exe.config
+C:\Users\User\source\repos\StudentManagementApp\StudentManagementApp\bin\Debug\StudentManagementApp.exe
+C:\Users\User\source\repos\StudentManagementApp\StudentManagementApp\bin\Debug\StudentManagementApp.pdb
+C:\Users\User\source\repos\StudentManagementApp\StudentManagementApp\obj\Debug\StudentManagementApp.exe
+C:\Users\User\source\repos\StudentManagementApp\StudentManagementApp\obj\Debug\StudentManagementApp.pdb
+C:\Users\User\source\repos\StudentManagementApp\StudentManagementApp\bin\Debug\Newtonsoft.Json.dll
+C:\Users\User\source\repos\StudentManagementApp\StudentManagementApp\bin\Debug\Newtonsoft.Json.xml
+C:\Users\User\source\repos\StudentManagementApp\StudentManagementApp\obj\Debug\StudentM.507EE403.Up2Date
+C:\Users\User\source\repos\StudentManagementApp\StudentManagementApp\bin\Debug\MaterialSkin.dll
