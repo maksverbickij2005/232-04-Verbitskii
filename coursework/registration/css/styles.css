@@ -1,0 +1,84 @@
+/* Основные цвета */
+:root {
+    --black: #000000;
+    --dark-red: #330000;
+    --burgundy: #800020;
+    --gold: #D4AF37;
+    --light-gold: #FFD700;
+    --white: #FFFFFF;
+    --dark-gray: #1A1A1A;
+    --gradient-gold: linear-gradient(45deg, var(--gold), var(--light-gold));
+}
+
+/* Общие стили */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    background-color: var(--dark-gray);
+    color: var(--white);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    overflow: hidden;
+}
+
+/* Контейнер для ошибки */
+.error-container {
+    text-align: center;
+    background: var(--burgundy);
+    padding: 2rem;
+    border-radius: 15px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+    transform-style: preserve-3d;
+    animation: float 5s infinite ease-in-out;
+}
+
+/* Заголовок ошибки */
+.error-title {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+    color: var(--gold);
+    text-shadow: 2px 2px 4px var(--black);
+}
+
+/* Текст ошибки */
+.error-text {
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+    color: var(--white);
+}
+
+/* Кнопка возврата */
+.error-button {
+    background: var(--gradient-gold);
+    color: var(--black);
+    padding: 0.8rem 2rem;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.error-button:hover {
+    transform: scale(1.1);
+    box-shadow: 0 0 15px var(--light-gold);
+}
+
+/* 3D анимация */
+@keyframes float {
+    0%, 100% {
+        transform: translateY(0) rotateX(0) rotateY(0);
+    }
+    25% {
+        transform: translateY(-10px) rotateX(10deg) rotateY(10deg);
+    }
+    50% {
+        transform: translateY(0) rotateX(0) rotateY(0);
+    }
+    75% {
+        transform: translateY(-10px) rotateX(-10deg) rotateY(-10deg);
+    }
+}
